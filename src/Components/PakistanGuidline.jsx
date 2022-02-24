@@ -1,7 +1,7 @@
 import "./Guidlines.css";
 import * as React from "react";
 import { DataGrid } from "@mui/x-data-grid";
-// import myimg from '../Components/Images/pakistanscreenshot.png';
+
 const columns = [
   { field: "id", headerName: "ID", width: 70 },
   { field: "firstName", headerName: "First name", width: 130 },
@@ -34,7 +34,7 @@ const rows = [
   { id: 8, lastName: "Frances", firstName: "Rossini", age: 36 },
   { id: 9, lastName: "Roxie", firstName: "Harvey", age: 65 },
 ];
-export default function Guidlines() {
+export default function PakistanGuidline() {
   return (
     <>
       <h1>Guidlines</h1>
@@ -50,7 +50,6 @@ export default function Guidlines() {
           rowsPerPageOptions={[5]}
           checkboxSelection
         />
-        {/* <img src={myimg}/> */}
       </div>
     </>
   );
